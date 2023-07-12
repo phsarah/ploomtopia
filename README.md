@@ -1,6 +1,6 @@
 # API Ploomtopia 🌈✨
 
-Bem-vindo à documentação oficial da API Ploomtopia! Aqui você encontrará todas as informações necessárias para interagir com nossa plataforma dedicada aos adoráveis Ploomies. 🦄
+Bem-vindo à documentação oficial da API Ploomtopia! Aqui você encontrará todas as informações necessárias para interagir com nossa plataforma dedicada aos adoráveis Ploomies. 
 
 ## Introdução
 
