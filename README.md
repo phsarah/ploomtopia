@@ -5,7 +5,7 @@ Bem-vindo à documentação oficial da API Ploomtopia! Aqui você encontrará to
 ## Introdução
 
 Ploomtopia é um mundo virtual encantado habitado por criaturas virtuais cheias de personalidade, conhecidas como Ploomies. 
-Cada Ploomie possui seu próprio nome e características únicas. 💖 Nossa API permite que você explore e aproveite a experiência com os Ploomies.
+Cada Ploomie possui seu próprio nome e características únicas. 💖 Nossa API permite que você explore e aproveite a experiência com essas criaturas místicas.
 
 ## Recursos da API
 
