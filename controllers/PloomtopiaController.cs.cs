@@ -22,7 +22,7 @@ namespace Ploomtopia.Controllers
         {
 
             var ploomies = await _ploomieRepository.GetAllPloomiesAsync();
-            return Ok(ploomies);
+            return Ok(new { message = "Lista buscada com sucesso", data = ploomies });
         }
 
         [HttpGet("{id}")]
@@ -33,7 +33,7 @@ namespace Ploomtopia.Controllers
             {
                 return NotFound();
             }
-            return Ok(ploomie);
+            return Ok(new { message = "Ploomie buscado com sucesso", data = ploomie });
         }
 
         [HttpPost]
