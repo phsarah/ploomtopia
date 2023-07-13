@@ -40,7 +40,13 @@ namespace Ploomtopia.Controllers
         public async Task<ActionResult<Ploomie>> CreatePloomie(Ploomie ploomie)
         {
             var createdPloomie = await _ploomieRepository.CreatePloomieAsync(ploomie);
-            return CreatedAtAction(nameof(GetPloomieById), new { id = createdPloomie.Id }, createdPloomie);
+            var response = new
+            {
+                message = "Ploomie criado com sucesso",
+                data = createdPloomie
+            };
+
+            return StatusCode(201, response);
         }
 
         [HttpPut("{id}")]
