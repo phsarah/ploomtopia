@@ -158,3 +158,37 @@ Resposta de Sucesso (200 OK):
 
 <br/>
 
+## Como rodar o projeto?
+
+1. Clone o repositório do projeto
+
+```bash
+git clone git@github.com:phsarah/ploomtopia.git
+```
+
+
+2. Navegue até o diretório raiz do projeto
+
+```bash
+cd ploomtopia
+```
+
+4. Restaure as dependências do projeto
+
+```bash
+dotnet restore
+```
+
+6. Execute o projeto
+
+```bash
+dotnet run
+```
+
+<br/>
+
+O projeto será compilado e iniciará na porta local 5000.
+
+Certifique-se de ter o .NET SDK instalado em sua máquina antes de executar esses comandos.
+
+Agora você pode acessar o projeto em seu navegador usando o endereço http://localhost:5000.
